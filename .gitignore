@@ -1,0 +1,28 @@
+# --- MATLAB ---
+*.asv
+*.mat
+*.fig
+*.log
+*.prj
+
+# --- Simulink ---
+*.slx
+*.mdl
+*.slxc
+
+# --- Système d'exploitation ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Dossiers temporaires / IDE ---
+.idea/
+.vscode/
+.git/
+__pycache__/
+
+# --- Fichiers de sauvegarde ---
+*~
+*.tmp
+*.bak
