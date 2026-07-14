@@ -10,6 +10,11 @@ This repository documents my work on Optimal Control Theory and Model Predictive
   * Finite Horizon LQR.m : Numerical solver for the discrete-time Riccati equation using backward recursion for finite-horizon problems.
 * **/estimation/ :**
   * Kalman Filtering: Implementation of state estimation for linear and non-linear systems (2D particle tracking with boundary conditions and harmonic oscillators).
+* **/Segway/ :**
+  * Modeling: Lagrangian derivation of inverted pendulum dynamics.
+  * Control Strategy: Optimal stabilization using LQR (Linear Quadratic Regulator) and pole placement.
+  * Observer Design: Luenberger observer implementation for state reconstruction (measuring position and angle).
+  * Visualization: Custom MATLAB interface for real-time simulation visualization.
 * **/docs/ :** Technical documentation, including lab reports and theoretical references.
 
 # Key Technical Skills
@@ -25,5 +30,6 @@ This repository documents my work on Optimal Control Theory and Model Predictive
 * The scripts are designed to be run within a standard MATLAB environment.
 
 # ReferencesThe implementations in this repository are based on the theoretical principles found in:
-* *Kirk, D. E. - Optimal Control Theory: An Introduction.Control Engineering Practicals -
-* Télécom Physique Strasbourg.
+* **Kirk, D. E.** - *Optimal Control Theory: An Introduction*.
+* Control Engineering Practicals - *Télécom Physique Strasbourg*.
+
